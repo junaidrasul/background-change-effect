@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ---------------------------MAIN  container styling strat here---------------------------------------------- */
+.container{
+width: 100%;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background: #f3fbff;
+}
+/* -----------------------------container styling end-------------------------------------------------------- */
+
+/* -----------------------------img box styling strat------------------------------------------------------- */
+.img-box{
+width: 60%;
+margin: auto;
+line-height: 0;
+background-image: url(/asset/transparent\ backgrond.jpg);
+overflow: hidden;
+position: relative;
+/* ----------------------------img box styling end---------------------------------------------------------- */
+/* -----------------------------img wrap styling strat here------------------------------------------------- */
+}
+.imgwrap{
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+/* ----------------------------img wrap styling   end------------------------------------------------------ */
