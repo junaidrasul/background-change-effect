@@ -1,14 +1,13 @@
-let imgBox = document.querySelector(".img-box");
-let imgwrap = document.querySelector(".imgwrap");
-let leftspace = imgBox.offsetleft;
-let originalImg = document.getElementById("originalImg");
+var ImgBox = document.querySelector(".img-box");
+var Imgwrap = document.querySelector(".imgwrap");
+
+var leftspace = ImgBox.offsetleft;
+var originalImg = document.getElementById("originalImg");
 originalImg.style.width = imgBox.offsetwidth + "px";
 
 imgBox.onmousemove = function (e) {
-    e.pagex;
-    let boxwidth = (e.pagex - leftspace) + "px";
-    imgwrap.style.width = boxwidth;
-
-
+    e.pageX;
+    var boxwidth = (e.pageX - leftspace) + "px";
+    Imgwrap.style.width = boxwidth;
 }
 
